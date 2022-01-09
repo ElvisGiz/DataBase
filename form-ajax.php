@@ -2,8 +2,8 @@
 require "header.php";
 ?>
 <form id="myform" action="" method="post">
-    <input type="text" placeholder="имя" name="name">
-    <input type="text" placeholder="сообщение" name="text">
+    <input type="text" placeholder="имя" name="name" value="<?=$_POST["name"]?>">
+    <input type="text" placeholder="сообщение" name="text" value="<?=$_POST["text"]?>">
     <input id="myclick" type="submit">
 </form>
     <div id="result_form"></div>
